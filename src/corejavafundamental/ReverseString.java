@@ -36,6 +36,7 @@ public static String reverseStringUsingStringBuilder(String str) {
 		for(int i=length-1; i>=0; i--) {
 			
 //			below line is not apllicale in case of SB
+//			The operator + is undefined for the argument type(s) StringBuilder, char
 //			stringBuilder= stringBuilder+str.charAt(i);
 			
 //			stringBuilder=stringBuilder.append(str.charAt(i));

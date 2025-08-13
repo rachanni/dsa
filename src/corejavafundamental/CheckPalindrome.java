@@ -32,7 +32,7 @@ public class CheckPalindrome {
 //	letter is consistently 32. 
 	
 //	our requirement is B == b -> true
-//	Approach -> change the original string to either upper case or lower case before comaprion
+//	Approach -> change the original string to either upper case or lower case before comparison
 //	Time complexity -> O(n) 
 //static boolean checkPalindromCaseInsensitive(String str) {
 //		
@@ -48,7 +48,8 @@ public class CheckPalindrome {
 //		return true;
 //	}
 
-//	time complexity -> O(n/2)
+//	time complexity -> O(n/2) or simply O(n)
+//	only need to traverse half of the string
 static boolean checkPalindromCaseInsensitive(String str) {
 	
 	int length= str.length();
